@@ -1,0 +1,860 @@
+2022-02-28 10:14:16 INFO  Base:24 - starting 'Chrome' browser.
+2022-02-28 10:14:19 INFO  Base:28 - Maximizing the browser.
+2022-02-28 10:14:19 INFO  Base:36 - test ended. 
+2022-02-28 10:14:19 INFO  Base:46 - After Class ...
+2022-02-28 10:54:05 INFO  Base:54 - After Class ...
+2022-02-28 10:55:05 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\CalculaterTestData.xlsx
+2022-02-28 10:55:05 ERROR ExcelManager:57 - Error: 
+java.io.FileNotFoundException: src\test\resources\TestData\CalculaterTestData.xlsx (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at com.page.object.libraries.ExcelManager.<init>(ExcelManager.java:53)
+	at com.page.object.tests.Task_One_Test.testData(Task_One_Test.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2022-02-28 10:55:05 ERROR ExcelManager:144 - Error: 
+java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Sheet.iterator()" because "com.page.object.libraries.ExcelManager.sh" is null
+	at com.page.object.libraries.ExcelManager.getExcelData(ExcelManager.java:117)
+	at com.page.object.tests.Task_One_Test.testData(Task_One_Test.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2022-02-28 10:55:05 INFO  Base:54 - After Class ...
+2022-02-28 10:55:27 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 10:55:27 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7894@gmail.com
+2022-02-28 10:55:28 INFO  Base:25 - starting 'Chrome' browser.
+2022-02-28 10:55:30 INFO  Base:29 - Maximizing the browser.
+2022-02-28 10:55:30 INFO  Base:37 - test ended. 
+2022-02-28 10:55:33 INFO  Base:54 - After Class ...
+2022-02-28 10:56:48 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 10:56:48 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7894@gmail.com
+2022-02-28 10:56:49 INFO  Base:25 - starting 'Chrome' browser.
+2022-02-28 10:56:51 INFO  Base:29 - Maximizing the browser.
+2022-02-28 10:56:51 INFO  HomePage:18 - website title is: My Store
+2022-02-28 10:56:51 INFO  Base:37 - test ended. 
+2022-02-28 10:56:55 INFO  Base:54 - After Class ...
+2022-02-28 10:57:29 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 10:57:29 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7894@gmail.com
+2022-02-28 10:57:30 INFO  Base:25 - starting 'Chrome' browser.
+2022-02-28 10:57:32 INFO  Base:29 - Maximizing the browser.
+2022-02-28 10:57:32 INFO  HomePage:18 - website title is: My Store
+2022-02-28 10:57:32 INFO  Base:37 - test ended. 
+2022-02-28 10:57:35 INFO  Base:54 - After Class ...
+2022-02-28 11:00:13 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 11:00:13 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7894@gmail.com
+2022-02-28 11:00:14 INFO  Base:25 - starting 'Chrome' browser.
+2022-02-28 11:00:18 INFO  Base:29 - Maximizing the browser.
+2022-02-28 11:00:18 INFO  HomePage:18 - website title is: My Store
+2022-02-28 11:00:18 INFO  Base:37 - test ended. 
+2022-02-28 11:00:21 INFO  Base:54 - After Class ...
+2022-02-28 11:01:05 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 11:01:06 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7894@gmail.com
+2022-02-28 11:01:07 INFO  Base:25 - starting 'Chrome' browser.
+2022-02-28 11:01:07 INFO  Base:29 - Maximizing the browser.
+2022-02-28 11:01:07 INFO  HomePage:18 - website title is: 508 Resource Limit Is Reached
+2022-02-28 11:01:07 INFO  Base:37 - test ended. 
+2022-02-28 11:01:10 INFO  Base:54 - After Class ...
+2022-02-28 11:01:16 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 11:01:16 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7894@gmail.com
+2022-02-28 11:01:17 INFO  Base:25 - starting 'Chrome' browser.
+2022-02-28 11:01:22 INFO  Base:29 - Maximizing the browser.
+2022-02-28 11:01:22 INFO  HomePage:18 - website title is: My Store
+2022-02-28 11:01:22 INFO  Base:37 - test ended. 
+2022-02-28 11:01:25 INFO  Base:54 - After Class ...
+2022-02-28 11:03:02 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 11:03:02 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7894@gmail.com
+2022-02-28 11:03:03 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 11:03:04 INFO  Base:30 - Maximizing the browser.
+2022-02-28 11:03:05 INFO  HomePage:18 - website title is: My Store
+2022-02-28 11:03:06 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 11:03:06 INFO  Base:38 - test ended. 
+2022-02-28 11:03:09 INFO  Base:55 - After Class ...
+2022-02-28 12:39:35 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 12:39:35 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7894@gmail.com
+2022-02-28 12:39:35 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Testing123
+2022-02-28 12:39:35 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing321
+2022-02-28 12:39:35 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 12:39:35 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Testing123
+2022-02-28 12:39:35 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing321
+2022-02-28 12:39:35 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 12:39:35 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 12:39:35 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 12:39:35 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 2156
+2022-02-28 12:39:35 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 12:39:37 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 12:39:39 INFO  Base:30 - Maximizing the browser.
+2022-02-28 12:39:40 INFO  HomePage:18 - website title is: My Store
+2022-02-28 12:39:41 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 12:39:43 INFO  CreateAccountPage:29 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 12:39:44 INFO  Base:38 - test ended. 
+2022-02-28 12:39:47 INFO  Base:55 - After Class ...
+2022-02-28 12:44:38 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 12:44:38 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7894@gmail.com
+2022-02-28 12:44:38 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 12:44:38 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 12:44:38 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 12:44:38 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 12:44:38 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 12:44:38 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 12:44:38 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 12:44:38 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 12:44:38 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 2156
+2022-02-28 12:44:38 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 12:44:39 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 12:44:41 INFO  Base:30 - Maximizing the browser.
+2022-02-28 12:44:41 INFO  HomePage:18 - website title is: My Store
+2022-02-28 12:44:43 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 12:44:44 INFO  CreateAccountPage:29 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 12:44:46 INFO  Base:38 - test ended. 
+2022-02-28 12:44:49 INFO  Base:55 - After Class ...
+2022-02-28 13:08:51 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 13:08:51 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7894@gmail.com
+2022-02-28 13:08:51 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 13:08:51 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 13:08:51 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 13:08:51 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 13:08:51 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 13:08:51 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 13:08:51 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 13:08:51 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 13:08:51 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 13:08:51 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 13:08:52 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 13:08:54 INFO  Base:30 - Maximizing the browser.
+2022-02-28 13:08:54 INFO  HomePage:18 - website title is: My Store
+2022-02-28 13:08:55 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 13:08:56 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 13:09:00 INFO  MyAccountPage:17 - Website title is: My account - My Store
+2022-02-28 13:09:00 INFO  MyAccountPage:24 - userName is:Auto Testing
+2022-02-28 13:09:00 INFO  Base:38 - test ended. 
+2022-02-28 13:09:03 INFO  Base:55 - After Class ...
+2022-02-28 13:10:41 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 13:10:41 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7894@gmail.com
+2022-02-28 13:10:41 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 13:10:41 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 13:10:41 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 13:10:41 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 13:10:41 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 13:10:41 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 13:10:41 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 13:10:41 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 13:10:41 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 13:10:41 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 13:10:42 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 13:10:43 INFO  Base:30 - Maximizing the browser.
+2022-02-28 13:10:43 INFO  HomePage:18 - website title is: My Store
+2022-02-28 13:10:47 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 13:11:02 INFO  Base:38 - test ended. 
+2022-02-28 13:11:05 INFO  Base:55 - After Class ...
+2022-02-28 13:11:51 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 13:11:51 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7895@gmail.com
+2022-02-28 13:11:51 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 13:11:51 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 13:11:51 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 13:11:51 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 13:11:51 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 13:11:51 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 13:11:51 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 13:11:51 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 13:11:51 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 13:11:51 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 13:11:52 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 13:11:54 INFO  Base:30 - Maximizing the browser.
+2022-02-28 13:11:54 INFO  HomePage:18 - website title is: My Store
+2022-02-28 13:11:57 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 13:11:58 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 13:12:04 INFO  MyAccountPage:17 - Website title is: My account - My Store
+2022-02-28 13:12:04 INFO  MyAccountPage:25 - userName is:Auto Testing
+2022-02-28 13:12:04 INFO  Base:38 - test ended. 
+2022-02-28 13:12:07 INFO  Base:55 - After Class ...
+2022-02-28 13:28:42 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 13:28:42 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7896@gmail.com
+2022-02-28 13:28:42 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 13:28:42 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 13:28:42 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 13:28:42 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 13:28:42 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 13:28:42 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 13:28:42 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 13:28:42 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 13:28:42 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 13:28:42 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 13:28:43 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 13:28:45 INFO  Base:30 - Maximizing the browser.
+2022-02-28 13:28:45 INFO  HomePage:18 - website title is: My Store
+2022-02-28 13:28:46 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 13:28:47 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 13:28:50 INFO  MyAccountPage:20 - Website title is: My account - My Store
+2022-02-28 13:28:50 INFO  MyAccountPage:28 - UserName is:Auto Testing
+2022-02-28 13:29:00 ERROR Tool:18 - Error: 
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CJAD98', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\zulka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c445ca14d81c59183048e87a802a938
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.page.object.libraries.Tool.clickButton(Tool.java:16)
+	at com.page.object.pages.MyAccountPage.clickTshirt(MyAccountPage.java:34)
+	at com.page.object.tests.Task_One_Test.dataDrivenTest(Task_One_Test.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2022-02-28 13:29:00 INFO  Base:38 - test ended. 
+2022-02-28 13:29:03 INFO  Base:55 - After Class ...
+2022-02-28 13:32:45 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 13:32:45 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7897@gmail.com
+2022-02-28 13:32:45 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 13:32:45 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 13:32:45 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 13:32:45 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 13:32:45 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 13:32:45 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 13:32:45 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 13:32:45 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 13:32:45 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 13:32:45 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 13:32:46 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 13:32:48 INFO  Base:30 - Maximizing the browser.
+2022-02-28 13:32:48 INFO  HomePage:18 - website title is: My Store
+2022-02-28 13:32:50 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 13:32:52 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 13:32:54 INFO  MyAccountPage:20 - Website title is: My account - My Store
+2022-02-28 13:32:54 INFO  MyAccountPage:28 - UserName is:Auto Testing
+2022-02-28 13:32:56 INFO  TShirtPage:19 - website title is: T-shirts - My Store
+2022-02-28 13:33:06 ERROR Tool:18 - Error: 
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=98.0.4758.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CJAD98', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\zulka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51455}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a032c1e59fbbbdd001421748a719c029
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.page.object.libraries.Tool.clickButton(Tool.java:16)
+	at com.page.object.pages.TShirtPage.addItemToCart(TShirtPage.java:25)
+	at com.page.object.tests.Task_One_Test.dataDrivenTest(Task_One_Test.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2022-02-28 13:33:06 INFO  Base:38 - test ended. 
+2022-02-28 13:33:09 INFO  Base:55 - After Class ...
+2022-02-28 13:35:04 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 13:35:05 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7898@gmail.com
+2022-02-28 13:35:05 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 13:35:05 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 13:35:05 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 13:35:05 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 13:35:05 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 13:35:05 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 13:35:05 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 13:35:05 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 13:35:05 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 13:35:05 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 13:35:06 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 13:35:07 INFO  Base:30 - Maximizing the browser.
+2022-02-28 13:35:07 INFO  HomePage:18 - website title is: My Store
+2022-02-28 13:35:08 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 13:35:10 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 13:35:13 INFO  MyAccountPage:20 - Website title is: My account - My Store
+2022-02-28 13:35:13 INFO  MyAccountPage:28 - UserName is:Auto Testing
+2022-02-28 13:35:14 INFO  TShirtPage:20 - website title is: T-shirts - My Store
+2022-02-28 13:35:22 INFO  Base:38 - test ended. 
+2022-02-28 13:35:25 INFO  Base:55 - After Class ...
+2022-02-28 13:41:20 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 13:41:20 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting7899@gmail.com
+2022-02-28 13:41:20 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 13:41:20 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 13:41:20 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 13:41:20 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 13:41:20 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 13:41:20 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 13:41:20 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 13:41:20 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 13:41:20 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 13:41:20 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 13:41:21 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 13:41:23 INFO  Base:30 - Maximizing the browser.
+2022-02-28 13:41:23 INFO  HomePage:18 - website title is: My Store
+2022-02-28 13:41:24 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 13:41:25 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 13:41:28 INFO  MyAccountPage:20 - Website title is: My account - My Store
+2022-02-28 13:41:28 INFO  MyAccountPage:28 - UserName is:Auto Testing
+2022-02-28 13:41:30 INFO  TShirtPage:21 - website title is: T-shirts - My Store
+2022-02-28 13:41:36 INFO  Base:38 - test ended. 
+2022-02-28 13:41:39 INFO  Base:55 - After Class ...
+2022-02-28 17:39:20 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 17:39:21 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting78100@gmail.com
+2022-02-28 17:39:21 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 17:39:21 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 17:39:21 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 17:39:21 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 17:39:21 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 17:39:21 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 17:39:21 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 17:39:21 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 17:39:21 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 17:39:21 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 17:39:22 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 17:39:29 INFO  Base:30 - Maximizing the browser.
+2022-02-28 17:39:29 INFO  HomePage:18 - website title is: My Store
+2022-02-28 17:39:37 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 17:39:42 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 17:39:52 INFO  MyAccountPage:20 - Website title is: My account - My Store
+2022-02-28 17:39:52 INFO  MyAccountPage:28 - UserName is:Auto Testing
+2022-02-28 17:39:56 INFO  TShirtPage:21 - website title is: T-shirts - My Store
+2022-02-28 17:40:14 INFO  Base:38 - test ended. 
+2022-02-28 17:40:17 INFO  Base:55 - After Class ...
+2022-02-28 18:58:15 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting78101@gmail.com
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 11, Data: 321, New St
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 12, Data: LA
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 13, Data: California
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 14, Data: 54675
+2022-02-28 18:58:15 INFO  ExcelManager:136 - Row: 1, Col: 15, Data: 987456123
+2022-02-28 18:58:16 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 18:58:19 INFO  Base:30 - Maximizing the browser.
+2022-02-28 18:58:19 INFO  HomePage:18 - website title is: My Store
+2022-02-28 18:58:24 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 18:58:27 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 18:58:32 INFO  MyAccountPage:20 - Website title is: My account - My Store
+2022-02-28 18:58:32 INFO  MyAccountPage:28 - UserName is:Auto Testing
+2022-02-28 18:58:36 INFO  TShirtPage:21 - website title is: T-shirts - My Store
+2022-02-28 18:58:51 ERROR Tool:33 - Error: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#address1"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CJAD98', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\zulka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51162}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a78d8f248f58a080ea41649fda152cb
+*** Element info: {Using=id, value=address1}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.page.object.libraries.Tool.enterText(Tool.java:27)
+	at com.page.object.pages.ChangeAddressPage.enterNewAddressInfo(ChangeAddressPage.java:28)
+	at com.page.object.tests.Task_One_Test.dataDrivenTest(Task_One_Test.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2022-02-28 18:58:51 INFO  Base:38 - test ended. 
+2022-02-28 18:58:54 INFO  Base:55 - After Class ...
+2022-02-28 19:03:49 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting78101@gmail.com
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 11, Data: 321, New St
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 12, Data: LA
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 13, Data: California
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 14, Data: 54675
+2022-02-28 19:03:50 INFO  ExcelManager:136 - Row: 1, Col: 15, Data: 987456123
+2022-02-28 19:03:51 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 19:03:53 INFO  Base:30 - Maximizing the browser.
+2022-02-28 19:03:53 INFO  HomePage:18 - website title is: My Store
+2022-02-28 19:03:56 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 19:04:06 INFO  Base:38 - test ended. 
+2022-02-28 19:04:09 INFO  Base:55 - After Class ...
+2022-02-28 19:08:47 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting78102@gmail.com
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 11, Data: 321, New St
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 12, Data: LA
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 13, Data: California
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 14, Data: 54675
+2022-02-28 19:08:47 INFO  ExcelManager:136 - Row: 1, Col: 15, Data: 987456123
+2022-02-28 19:08:48 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 19:08:50 INFO  Base:30 - Maximizing the browser.
+2022-02-28 19:08:51 INFO  HomePage:18 - website title is: My Store
+2022-02-28 19:08:52 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 19:08:53 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 19:08:56 INFO  MyAccountPage:20 - Website title is: My account - My Store
+2022-02-28 19:08:56 INFO  MyAccountPage:28 - UserName is:Auto Testing
+2022-02-28 19:08:57 INFO  TShirtPage:21 - website title is: T-shirts - My Store
+2022-02-28 19:09:14 INFO  Base:38 - test ended. 
+2022-02-28 19:09:17 INFO  Base:55 - After Class ...
+2022-02-28 19:45:29 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting78103@gmail.com
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 11, Data: 321, New St
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 12, Data: LA
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 13, Data: California
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 14, Data: 54675
+2022-02-28 19:45:29 INFO  ExcelManager:136 - Row: 1, Col: 15, Data: 987456123
+2022-02-28 19:45:30 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 19:45:32 INFO  Base:30 - Maximizing the browser.
+2022-02-28 19:45:33 INFO  HomePage:18 - website title is: My Store
+2022-02-28 19:45:34 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 19:45:35 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 19:45:38 INFO  MyAccountPage:20 - Website title is: My account - My Store
+2022-02-28 19:45:38 INFO  MyAccountPage:28 - UserName is:Auto Testing
+2022-02-28 19:45:40 INFO  TShirtPage:21 - website title is: T-shirts - My Store
+2022-02-28 19:45:59 ERROR Tool:20 - Error: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='I confirm my order']"}
+  (Session info: chrome=98.0.4758.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3CJAD98', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\zulka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d4c0525b30df893b77ed81c4cfaa15bc
+*** Element info: {Using=xpath, value=//span[text()='I confirm my order']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.page.object.libraries.Tool.clickButton(Tool.java:17)
+	at com.page.object.pages.CheckOutPage.clickConfirmOrder(CheckOutPage.java:39)
+	at com.page.object.tests.Task_One_Test.dataDrivenTest(Task_One_Test.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2022-02-28 19:45:59 INFO  Base:38 - test ended. 
+2022-02-28 19:46:02 INFO  Base:55 - After Class ...
+2022-02-28 19:47:26 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting78104@gmail.com
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 11, Data: 321, New St
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 12, Data: LA
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 13, Data: California
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 14, Data: 54675
+2022-02-28 19:47:27 INFO  ExcelManager:136 - Row: 1, Col: 15, Data: 987456123
+2022-02-28 19:47:28 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 19:47:29 INFO  Base:30 - Maximizing the browser.
+2022-02-28 19:47:29 INFO  HomePage:18 - website title is: My Store
+2022-02-28 19:47:30 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 19:47:32 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 19:47:37 INFO  MyAccountPage:20 - Website title is: My account - My Store
+2022-02-28 19:47:37 INFO  MyAccountPage:28 - UserName is:Auto Testing
+2022-02-28 19:47:40 INFO  TShirtPage:21 - website title is: T-shirts - My Store
+2022-02-28 19:48:04 INFO  Base:38 - test ended. 
+2022-02-28 19:48:07 INFO  Base:55 - After Class ...
+2022-02-28 19:49:02 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting78105@gmail.com
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 11, Data: 321, New St
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 12, Data: LA
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 13, Data: California
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 14, Data: 54675
+2022-02-28 19:49:02 INFO  ExcelManager:136 - Row: 1, Col: 15, Data: 987456123
+2022-02-28 19:49:03 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 19:49:05 INFO  Base:30 - Maximizing the browser.
+2022-02-28 19:49:05 INFO  HomePage:18 - website title is: My Store
+2022-02-28 19:49:06 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 19:49:09 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 19:49:12 INFO  MyAccountPage:20 - Website title is: My account - My Store
+2022-02-28 19:49:12 INFO  MyAccountPage:28 - UserName is:Auto Testing
+2022-02-28 19:49:13 INFO  TShirtPage:21 - website title is: T-shirts - My Store
+2022-02-28 19:49:31 INFO  CheckOutPage:45 - Confirmation text : YOUR CHECK MUST INCLUDE:
+- Payment amount. $18.51
+- Payable to the order of pradeep
+- Mail to xyz
+- Do not forget to include your order reference AUCWISMAH.
+- An email has been sent to you with this information.
+- Your order will be sent as soon as we receive your payment.
+- If you have questions, comments or concerns, please contact our customer service department..
+2022-02-28 19:49:31 INFO  Base:38 - test ended. 
+2022-02-28 19:49:34 INFO  Base:55 - After Class ...
+2022-02-28 19:57:27 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting78107@gmail.com
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 11, Data: 321, New St
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 12, Data: LA
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 13, Data: California
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 14, Data: 54675
+2022-02-28 19:57:27 INFO  ExcelManager:136 - Row: 1, Col: 15, Data: 987456123
+2022-02-28 19:57:28 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 19:57:29 INFO  Base:30 - Maximizing the browser.
+2022-02-28 19:57:29 INFO  HomePage:18 - website title is: My Store
+2022-02-28 19:57:30 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 19:57:32 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 19:57:35 INFO  MyAccountPage:20 - Website title is: My account - My Store
+2022-02-28 19:57:35 INFO  MyAccountPage:28 - UserName is:Auto Testing
+2022-02-28 19:57:36 INFO  TShirtPage:21 - website title is: T-shirts - My Store
+2022-02-28 19:57:44 INFO  CheckOutPage:53 - Confirmation text : YOUR CHECK MUST INCLUDE:
+- Payment amount. $18.51
+- Payable to the order of pradeep
+- Mail to xyz
+- Do not forget to include your order reference UADGNGZHN.
+- An email has been sent to you with this information.
+- Your order will be sent as soon as we receive your payment.
+- If you have questions, comments or concerns, please contact our customer service department..
+2022-02-28 19:57:44 INFO  Base:38 - test ended. 
+2022-02-28 19:57:47 INFO  Base:55 - After Class ...
+2022-02-28 19:59:06 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting78108@gmail.com
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 11, Data: 321, New St
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 12, Data: LA
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 13, Data: California
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 14, Data: 54675
+2022-02-28 19:59:06 INFO  ExcelManager:136 - Row: 1, Col: 15, Data: 987456123
+2022-02-28 19:59:07 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 19:59:08 INFO  Base:30 - Maximizing the browser.
+2022-02-28 19:59:08 INFO  HomePage:18 - website title is: My Store
+2022-02-28 19:59:11 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 19:59:12 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 19:59:15 INFO  MyAccountPage:20 - Website title is: My account - My Store
+2022-02-28 19:59:15 INFO  MyAccountPage:28 - UserName is:Auto Testing
+2022-02-28 19:59:17 INFO  TShirtPage:21 - website title is: T-shirts - My Store
+2022-02-28 19:59:27 INFO  CheckOutPage:53 - Confirmation text : YOUR CHECK MUST INCLUDE:
+- Payment amount. $18.51
+- Payable to the order of pradeep
+- Mail to xyz
+- Do not forget to include your order reference TVXMULSMS.
+- An email has been sent to you with this information.
+- Your order will be sent as soon as we receive your payment.
+- If you have questions, comments or concerns, please contact our customer service department..
+2022-02-28 19:59:27 INFO  Base:38 - test ended. 
+2022-02-28 19:59:30 INFO  Base:55 - After Class ...
+2022-02-28 20:02:10 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting78109@gmail.com
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 11, Data: 321, New St
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 12, Data: LA
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 13, Data: California
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 14, Data: 54675
+2022-02-28 20:02:10 INFO  ExcelManager:136 - Row: 1, Col: 15, Data: 987456123
+2022-02-28 20:02:11 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 20:02:20 INFO  Base:30 - Maximizing the browser.
+2022-02-28 20:02:20 INFO  HomePage:18 - website title is: My Store
+2022-02-28 20:02:22 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 20:02:24 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 20:02:27 INFO  MyAccountPage:20 - Website title is: My account - My Store
+2022-02-28 20:02:27 INFO  MyAccountPage:28 - UserName is:Auto Testing
+2022-02-28 20:02:30 INFO  TShirtPage:21 - website title is: T-shirts - My Store
+2022-02-28 20:02:53 INFO  CheckOutPage:53 - Confirmation text : YOUR CHECK MUST INCLUDE:
+- Payment amount. $18.51
+- Payable to the order of pradeep
+- Mail to xyz
+- Do not forget to include your order reference OSXQCVKVV.
+- An email has been sent to you with this information.
+- Your order will be sent as soon as we receive your payment.
+- If you have questions, comments or concerns, please contact our customer service department..
+2022-02-28 20:02:53 INFO  Base:38 - test ended. 
+2022-02-28 20:02:56 INFO  Base:55 - After Class ...
+2022-02-28 21:06:23 INFO  ExcelManager:52 - Reading Excel File ---> D:\IT\LLS_Project\LLS_Task_Project\src\test\resources\TestData\TestData.xlsx
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 0, Data: AutoTesting78110@gmail.com
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 1, Data: Auto
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 2, Data: Testing
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 3, Data: 123456
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 4, Data: Auto
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 5, Data: Testing
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 6, Data: 123, what St
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 7, Data: New York
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 8, Data: New York
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 9, Data: 21240
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 10, Data: 123456789
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 11, Data: 321, New St
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 12, Data: LA
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 13, Data: California
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 14, Data: 54675
+2022-02-28 21:06:23 INFO  ExcelManager:136 - Row: 1, Col: 15, Data: 987456123
+2022-02-28 21:06:24 INFO  Base:26 - starting 'Chrome' browser.
+2022-02-28 21:06:26 INFO  Base:30 - Maximizing the browser.
+2022-02-28 21:06:26 INFO  HomePage:18 - website title is: My Store
+2022-02-28 21:06:27 INFO  Signin_Page:20 - Website title is: Login - My Store
+2022-02-28 21:06:29 INFO  CreateAccountPage:30 - Page Heading is: CREATE AN ACCOUNT
+2022-02-28 21:06:31 INFO  MyAccountPage:20 - Website title is: My account - My Store
+2022-02-28 21:06:31 INFO  MyAccountPage:28 - UserName is:Auto Testing
+2022-02-28 21:06:32 INFO  TShirtPage:21 - website title is: T-shirts - My Store
+2022-02-28 21:06:41 INFO  CheckOutPage:53 - Confirmation text : YOUR CHECK MUST INCLUDE:
+- Payment amount. $18.51
+- Payable to the order of pradeep
+- Mail to xyz
+- Do not forget to include your order reference ENCNFLRWG.
+- An email has been sent to you with this information.
+- Your order will be sent as soon as we receive your payment.
+- If you have questions, comments or concerns, please contact our customer service department..
+2022-02-28 21:06:41 INFO  Base:38 - test ended. 
+2022-02-28 21:06:44 INFO  Base:55 - After Class ...
